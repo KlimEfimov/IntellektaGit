@@ -1,9 +1,13 @@
 package org.gitexcercise;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Viewer {
     private String nickname;
     private int age;
     private int moviesViewed;
+    private List<Cinema> viewedMovies = new ArrayList<>();
 
     public Viewer(String nickname, int age, int moviesViewed) {
         this.nickname = nickname;
